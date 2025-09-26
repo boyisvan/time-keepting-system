@@ -1,0 +1,10 @@
+{
+    "company_name": "Công ty TNHH LE DUy",
+    "timezone": "Asia\/Ho_Chi_Minh",
+    "tolerance_minutes": 15,
+    "standard_hours": 8,
+    "max_overtime_hours": 4,
+    "auto_approve_overtime": false,
+    "updated_at": "2025-09-23 20:04:54",
+    "updated_by": 2
+}
