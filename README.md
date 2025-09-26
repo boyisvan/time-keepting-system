@@ -261,6 +261,34 @@ timekeeping-system/
 - Kiểm tra upload_max_filesize
 - Kiểm tra post_max_size
 
+## Hình ảnh về sản phẩm
+
+**Trang chủ** ( đã thu nhỏ về 70%)
+
+<img width="1862" height="909" alt="{CC4BE5A5-B776-4735-B8D9-1EC64D42FF09}" src="https://github.com/user-attachments/assets/6b99d616-0a19-42f6-b84a-10f90d1c8397" />
+
+**Chấm công đầu vào, đầu ra**
+
+<img width="1919" height="890" alt="{7CABC010-9B2C-4C7F-BDD8-2608F1DEA9C5}" src="https://github.com/user-attachments/assets/db098b70-0f5f-436b-9353-a2a0c1155f42" />
+
+<img width="1906" height="843" alt="{3BB3FB17-DF57-4610-87AD-E4AD849C6B63}" src="https://github.com/user-attachments/assets/7a4d4540-6c48-4535-8892-c5ac0824b67a" />
+
+**Lịch sử chấm công**
+
+<img width="1895" height="895" alt="{C97F7374-5FCB-4A50-A92B-A5587C023E26}" src="https://github.com/user-attachments/assets/374e0c1e-2b03-4a76-b7e9-b7936a743c27" />
+
+**Quản lý nhân viên ( thêm, sửa, xóa, tìm kiếm, xem chi tiết, lọc )**
+
+<img width="1907" height="860" alt="{4089EFD9-6270-48F8-8EC2-9419DE0EB8C0}" src="https://github.com/user-attachments/assets/b8e1a4f9-5b9e-4db3-92d2-00cbe150147e" />
+
+**Các biểu đồ quản lý**
+
+<img width="1788" height="1267" alt="image" src="https://github.com/user-attachments/assets/59736034-e5c6-4a20-a966-65aeddc1de92" />
+
+**Cài đặt hệ thống**
+
+<img width="1888" height="752" alt="{8103EF09-DC14-40E3-9379-055DC3E7EA90}" src="https://github.com/user-attachments/assets/fb088470-3009-475d-9c80-58177bd75c97" />
+
 ## Hướng phát triển trong tương lai
 
 ### Phiên bản 1.1 (Q2 2025)

@@ -98,6 +98,7 @@ switch ($uri) {
         break;
         
     case '/employees':
+    case '/main/employees':
         $controller = new EmployeeController();
         if ($request->method() === 'POST') {
             $controller->store();
@@ -107,11 +108,13 @@ switch ($uri) {
         break;
         
     case '/employees/create':
+    case '/main/employees/create':
         $controller = new EmployeeController();
         $controller->create();
         break;
         
     case '/employees/store':
+    case '/main/employees/store':
         if ($request->method() === 'POST') {
             $controller = new EmployeeController();
             $controller->store();
@@ -119,6 +122,7 @@ switch ($uri) {
         break;
         
     case (preg_match('/^\/employees\/(\d+)$/', $uri, $matches) ? true : false):
+    case (preg_match('/^\/main\/employees\/(\d+)$/', $uri, $matches) ? true : false):
         $id = $matches[1];
         $controller = new EmployeeController();
         if ($request->method() === 'GET') {
@@ -131,11 +135,13 @@ switch ($uri) {
         break;
         
     case '/employees/search':
+    case '/main/employees/search':
         $controller = new EmployeeController();
         $controller->search();
         break;
         
     case '/employees/stats':
+    case '/main/employees/stats':
         $controller = new EmployeeController();
         $controller->stats();
         break;
@@ -292,8 +298,11 @@ switch ($uri) {
         ViewHelper::render('profile/index');
         break;
         
-    case '/reports':
-        ViewHelper::render('reports/index');
+    case '/403':
+        http_response_code(403);
+        echo '<h1>403 - Forbidden</h1>';
+        echo '<p>Bạn không có quyền truy cập trang này.</p>';
+        echo '<a href="/main/dashboard">Quay về trang chủ</a>';
         break;
         
     default:

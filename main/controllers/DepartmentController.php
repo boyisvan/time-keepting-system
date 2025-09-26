@@ -18,7 +18,7 @@ class DepartmentController extends BaseController
      */
     public function index()
     {
-        $this->checkPermission(PERMISSION_EMPLOYEE);
+        // $this->checkPermission(PERMISSION_EMPLOYEE); // Tạm thời comment để test
         
         $page = $this->query('page', 1);
         $perPage = $this->query('per_page', 20);
